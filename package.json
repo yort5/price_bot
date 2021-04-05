@@ -4,7 +4,7 @@
   "description": "Discord bot to show creator coin price",
   "main": "price_bot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node price_bot.js"
   },
   "author": "Jeremy",
   "license": "MIT",
