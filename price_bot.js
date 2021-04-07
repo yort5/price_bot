@@ -30,7 +30,7 @@ bot.on('ready', async () => {
 bot.on('message', msg => {
   const perms = msg.member.permissions;
   
-  if (msg.content === '!crimeprice') {
+  if (msg.content === '!price') {
     msg.reply('Here ya go ^^^');
     console.log('author ', msg.author)
 
