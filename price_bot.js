@@ -85,8 +85,8 @@ bot.on('message', msg => {
 const pollCoinPrices = () => {
   bot.guilds.cache.each(guild => { 
     storage.getItem(guild.id).then(coinsymbol => {
-      if(coinsymbol && coinsymbol.toLowerCase() !== 'rly'){
-        let symbol = new String(coinsymbol).toLowerCase()
+      if(true){
+        let symbol = 'CRIME'
         fetch(`https://api.rally.io/v1/creator_coins/${symbol}/price`)
           .then(res => res.json())
           .then(json => {
