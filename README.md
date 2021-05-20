@@ -1,8 +1,8 @@
 # Install ![alt text](https://images-cc.rally.io/images/rly_token/rly-t-pupple.png) price_bot on any discord server
 
-Use link below to install the creatorcoin_pricebot with the purple RLY logo on your discord server
+This version of the bot is set up to be used with a free Dyno worker tier at Heroku. Thus the Procfile. If you use this, please feel free to update this README with any other helpful instructions on how to get the Dyno worker running, especially if things change!
 
-https://discord.com/api/oauth2/authorize?client_id=790659705839157289&permissions=0&scope=bot
+----
 
 The bot doesn't require any permission because it only changes it's own nickname.
 
